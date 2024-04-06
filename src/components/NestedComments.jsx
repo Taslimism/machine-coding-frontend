@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-//ADD THIS to PR
-
 const NestedComment = () => {
 	const [isReplyClicked, setIsReplyClicked] = useState(false);
 	const [isCommentSaved, setIsCommentSaved] = useState(false);

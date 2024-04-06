@@ -1,7 +1,5 @@
 import { useState } from "react";
 
-//ADD THIS to PR
-
 const initializeChessBoard = () => {
 	const board = new Array(8).fill(0);
 	for (let i = 0; i < 8; i++) {
